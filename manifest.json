@@ -1,0 +1,16 @@
+{
+    "name":"exam bypass",
+    "version":"1.0",
+    "manifest_version":2,
+
+    "background": 
+    {
+        "scripts": ["background.js"]
+    },
+
+    "permissions": [
+        "https://*.exam.net/api/new-faster/cheat/*",
+        "webRequest",
+        "webRequestBlocking"
+    ]
+}
